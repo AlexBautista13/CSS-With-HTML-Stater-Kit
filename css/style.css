@@ -1,0 +1,84 @@
+/* header {
+    color: red;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    /* background-color: red; */
+}
+
+.header {
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+/* 
+#box-1 {
+    background-color: red;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    padding-right: 10px; */
+    /* padding: 20px;
+} */ 
+
+.button {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s;
+    display: block;
+
+}
+
+.button:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+form {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin: 5px 0;
+}
+  
+
+form input[type="text"],
+input[type="email"] {
+    padding: 7px 1px;
+    margin: 3px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 90%;
+    border: 1px solid #333;
+    margin: auto;
+}
+
+table td, th {
+    background-color: #f4f4f4;
+}
+
+table th {
+   border-bottom: 1px solid #333; 
+}
+
